@@ -8,8 +8,10 @@ class Program
 
         Console.Write("Qual é o seu nome? ");
         string nome = Console.ReadLine();
-        Console.Write("Qual é o seu sobrenome? ");        
+
+        Console.Write("Qual é o seu sobrenome? ");
         string sobrenome = Console.ReadLine();
+        
         Console.WriteLine($"Seu nome é {nome}, {nome} {sobrenome}.");
     }
 }
