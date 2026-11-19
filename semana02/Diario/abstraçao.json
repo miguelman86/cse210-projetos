@@ -1,0 +1,19 @@
+Significado de Abstração:
+Abstração é esconder os detalhes complicados de como algo funciona por dentro e mostrar para quem usa apenas o que é essencial e simples de entender. 
+Um benefício da Abstração:
+O principal benefício é que o código fica mais simples, mais organizado e mais fácil de manter. Quando escondemos os detalhes, quem usa uma classe não precisa se preocupar com a complexidade dela. 
+Uma aplicação da Abstração:
+No nosso programa do Diário, usamos abstração o tempo todo. Por exemplo, o Program.cs não precisa saber como os registros são salvos no arquivo ou como uma pergunta aleatória é escolhida. Ele só precisa chamar um método simples e o trabalho é feito.
+
+Exemplo de código:
+
+public void SalvarNoArquivo(string arquivo)
+{
+    using (StreamWriter arquivoSaida = new StreamWriter(arquivo))
+    {
+        foreach (Registro registro in _registros)
+        {
+            arquivoSaida.WriteLine($"{registro._data} | {registro._textoPergunta} | {registro._textoResposta} | {registro._humor}");
+        }
+    }
+}
