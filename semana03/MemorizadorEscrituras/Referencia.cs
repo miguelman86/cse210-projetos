@@ -22,8 +22,8 @@ public class Referencia
     {
         if (_versiculo == _ultimoVersiculo)
         {
-            return $"{ _livro} { _capitulo}:{ _versiculo}";
+            return $"{_livro} {_capitulo}:{_versiculo}";
         }
-        return $"{ _livro} { _capitulo}:{ _versiculo}-{_ultimoVersiculo}";
+        return $"{_livro} {_capitulo}:{_versiculo}-{_ultimoVersiculo}";
     }
 }

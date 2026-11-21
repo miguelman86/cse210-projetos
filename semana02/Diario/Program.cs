@@ -4,8 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Olá, Mundo! Este é o Projeto Diario.");
-
         Diario diario1 = new Diario();
         GeradorDePerguntas geradorPerguntas = new GeradorDePerguntas();
 

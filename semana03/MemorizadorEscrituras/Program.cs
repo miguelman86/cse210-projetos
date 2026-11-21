@@ -21,7 +21,7 @@ class Program
             {
                 break;
             }
-
+            
             Console.Write("Pressione Enter para ocultar mais palavras ou digite 'sair': ");
             string entrada = Console.ReadLine() ?? string.Empty;
 

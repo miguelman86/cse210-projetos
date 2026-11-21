@@ -29,6 +29,5 @@ public class Palavra
         }
         return _texto;
     }
-    
-    
+
 }

@@ -27,6 +27,7 @@ public class Escritura
             }
         }
 
+
         int limite = Math.Min(numeroParaOcultar, palavrasVisisveis.Count);
 
         for (int i = 0; i < limite; i++)
